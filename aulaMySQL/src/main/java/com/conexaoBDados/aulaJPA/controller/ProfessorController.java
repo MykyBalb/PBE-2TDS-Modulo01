@@ -45,6 +45,4 @@ public class ProfessorController {
         pfRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }
-
-
 }
